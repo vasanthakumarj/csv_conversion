@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: csv-conversion
+Version: 1
+Summary: csv to avro conversion
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: BSD 3-Clause License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6

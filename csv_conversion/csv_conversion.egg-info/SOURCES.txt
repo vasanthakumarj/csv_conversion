@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+csv_conversion/conversion.py
+csv_conversion.egg-info/PKG-INFO
+csv_conversion.egg-info/SOURCES.txt
+csv_conversion.egg-info/dependency_links.txt
+csv_conversion.egg-info/not-zip-safe
+csv_conversion.egg-info/top_level.txt

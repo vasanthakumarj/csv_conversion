@@ -1,0 +1,9 @@
+{"namespace": "csv to avro",
+ "type": "record",
+ "name": "csv",
+ "fields": [
+     {"name": "id", "type": "int"},
+     {"name": "name",  "type": "string"},
+     {"name": "lastname", "type": "string"}
+ ]
+}
