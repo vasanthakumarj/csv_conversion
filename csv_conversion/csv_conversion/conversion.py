@@ -22,15 +22,7 @@ with open(csv_inp, 'r') as csvinp:
 	header = next(rdr)
 	for row in rdr:
 		records.append((dict(zip(header, [int(row[0]), row[1], row[2]]))))
-"""		
-# 'records' can be an iterable (including generator)
-records = [
-    {u'station': u'011990-99999', u'temp': 0, u'time': 1433269388},
-    {u'station': u'011990-99999', u'temp': 22, u'time': 1433270389},
-    {u'station': u'011990-99999', u'temp': -11, u'time': 1433273379},
-    {u'station': u'012650-99999', u'temp': 111, u'time': 1433275478},
-]
-"""
+
 # Writing
 with open(avro_output, 'wb') as out:
     writer(out, parsed_schema, records)
