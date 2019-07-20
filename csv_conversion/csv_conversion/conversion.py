@@ -1,6 +1,7 @@
 from fastavro import writer, reader, parse_schema
 import csv
 
+
 schema = {"namespace": "csv to avro",
  "type": "record",
  "name": "csv",
